@@ -202,7 +202,7 @@ nav.scrolled {
 }
 
 .home-text {
-    margin-top: 50%;
+    margin-top: 5%;
     flex: 1;
     padding-right: 50px;
     transform: translateX(-50px);
