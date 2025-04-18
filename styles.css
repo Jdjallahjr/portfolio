@@ -679,6 +679,7 @@ footer {
 
     .home-text,
     .about-text {
+        margin-top: 50%;
         padding-right: 0;
         margin-bottom: 50px;
         text-align: center;
