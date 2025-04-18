@@ -110,7 +110,7 @@ section {
 
 /* Navigation */
 nav {
-    height: 80px;
+    /* height: 80px; */
     position: fixed;
     top: 0;
     left: 0;
