@@ -185,7 +185,7 @@ nav.scrolled {
 
 /* Home Section */
 #home {
-    padding-top: 80px; /* Matches nav height */
+    /* padding-top: 80px; Matches nav height */
     min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
@@ -783,7 +783,7 @@ footer {
     nav {
         height: 60px;
     }
-    
+
     .home-text h2 {
         font-size: 2rem;
     }
