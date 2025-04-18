@@ -110,6 +110,7 @@ section {
 
 /* Navigation */
 nav {
+    height: 80px;
     position: fixed;
     top: 0;
     left: 0;
@@ -184,6 +185,8 @@ nav.scrolled {
 
 /* Home Section */
 #home {
+    padding-top: 80px; /* Matches nav height */
+    min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -732,6 +735,18 @@ footer {
 }
 
 @media (max-width: 768px) {
+    #home {
+        padding-top: 70px; /* Slightly less on mobile */
+        min-height: calc(100vh - 70px);
+    }
+    
+    nav {
+        height: 70px;
+    }
+    
+    .home-text {
+        margin-top: 20px; /* Extra spacing for mobile */
+    }
     nav {
         padding: 20px;
     }
@@ -760,6 +775,15 @@ footer {
 }
 
 @media (max-width: 576px) {
+    #home {
+        padding-top: 60px;
+        min-height: calc(100vh - 60px);
+    }
+    
+    nav {
+        height: 60px;
+    }
+    
     .home-text h2 {
         font-size: 2rem;
     }
