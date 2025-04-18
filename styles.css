@@ -185,8 +185,6 @@ nav.scrolled {
 
 /* Home Section */
 #home {
-    /* padding-top: 80px; Matches nav height */
-    min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
