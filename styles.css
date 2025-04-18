@@ -110,7 +110,6 @@ section {
 
 /* Navigation */
 nav {
-    /* height: 80px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -733,18 +732,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    #home {
-        padding-top: 70px; /* Slightly less on mobile */
-        min-height: calc(100vh - 70px);
-    }
-    
-    nav {
-        height: 70px;
-    }
-    
-    .home-text {
-        margin-top: 20px; /* Extra spacing for mobile */
-    }
     nav {
         padding: 20px;
     }
