@@ -276,11 +276,11 @@ nav.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .about-image {
-    margin-top: -20%;
+    margin-top: -27%;
     flex: 1;
     transform: translateX(-50px);
     opacity: 0;
